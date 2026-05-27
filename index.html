@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Texas TDLR Contractor Bond Compliance Data 2026</title>
+  <meta name="description" content="46.9% of Texas apprentice electricians have expired surety bonds. Free dataset covering 816,000+ TDLR licensees. Updated monthly from Texas public records.">
+  <link rel="canonical" href="https://contact219.github.io/texas-tdlr-bond-compliance-2026/">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Texas TDLR Contractor Bond Compliance 2026",
+    "description": "Bond compliance rates for all 22 Texas TDLR license types. 29.3% of 816,000+ licensees have expired surety bonds as of May 2026. Data sourced from TDLR public records via Texas Open Data Portal.",
+    "url": "https://contact219.github.io/texas-tdlr-bond-compliance-2026/",
+    "identifier": "texas-tdlr-bond-compliance-2026",
+    "keywords": ["texas", "TDLR", "surety bond", "contractor license", "bond compliance", "consumer protection", "electrician", "open data"],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "isAccessibleForFree": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "Quantum Surety LLC",
+      "url": "https://quantumsurety.bond"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Quantum Surety LLC",
+      "url": "https://quantumsurety.bond"
+    },
+    "datePublished": "2026-05-27",
+    "dateModified": "2026-05-27",
+    "temporalCoverage": "2026-05",
+    "spatialCoverage": {
+      "@type": "Place",
+      "name": "Texas, United States",
+      "geo": { "@type": "GeoShape", "addressCountry": "US", "addressRegion": "TX" }
+    },
+    "distribution": [
+      {
+        "@type": "DataDownload",
+        "encodingFormat": "text/csv",
+        "contentUrl": "https://raw.githubusercontent.com/contact219/texas-tdlr-bond-compliance-2026/main/compliance_by_trade.csv",
+        "name": "compliance_by_trade.csv"
+      }
+    ],
+    "isBasedOn": {
+      "@type": "Dataset",
+      "name": "TDLR Licensees",
+      "url": "https://data.texas.gov/dataset/TDLR-Licensees/7358-krk7",
+      "publisher": { "@type": "Organization", "name": "Texas Department of Licensing and Regulation" }
+    }
+  }
+  </script>
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:760px;margin:0 auto;padding:40px 24px;color:#1e293b;line-height:1.7}
+    h1{font-size:28px;font-weight:800;color:#0f172a}
+    .stat{display:inline-block;background:#fef2f2;border:1px solid #fecaca;border-radius:8px;padding:14px 20px;margin:6px;text-align:center}
+    .stat-num{font-size:28px;font-weight:800;color:#dc2626}
+    .stat-label{font-size:12px;color:#64748b}
+    table{width:100%;border-collapse:collapse;font-size:14px;margin:20px 0}
+    th{background:#0a0f1e;color:#f59e0b;padding:10px 14px;text-align:left}
+    td{padding:9px 14px;border-bottom:1px solid #f1f5f9}
+    a{color:#2563eb}
+    .btn{display:inline-block;background:#0a0f1e;color:#f59e0b;padding:10px 20px;border-radius:7px;text-decoration:none;font-weight:700;margin:4px}
+  </style>
+</head>
+<body>
+  <h1>Texas TDLR Contractor Bond Compliance &mdash; May 2026</h1>
+  <p>Public dataset: Bond compliance rates for all 22 Texas TDLR contractor license types. Source: <a href="https://data.texas.gov/dataset/TDLR-Licensees/7358-krk7">Texas TDLR public records</a>.</p>
+
+  <div style="margin:20px 0">
+    <div class="stat"><div class="stat-num">46.9%</div><div class="stat-label">Apprentice Electricians<br>with expired bonds</div></div>
+    <div class="stat"><div class="stat-num">44.8%</div><div class="stat-num" style="font-size:28px">44.8%</div><div class="stat-label">Tow Truck Operators<br>with expired bonds</div></div>
+    <div class="stat"><div class="stat-num">29.3%</div><div class="stat-label">All TDLR licensees<br>non-compliant</div></div>
+  </div>
+
+  <h2>Download Dataset</h2>
+  <p><a href="https://raw.githubusercontent.com/contact219/texas-tdlr-bond-compliance-2026/main/compliance_by_trade.csv">compliance_by_trade.csv</a> &mdash; 22 TDLR license types, bond expiry rates, A&ndash;F grades</p>
+
+  <h2>Data by License Type</h2>
+  <table>
+    <thead><tr><th>License Type</th><th>Total</th><th>Expired</th><th>Rate</th><th>Grade</th></tr></thead>
+    <tbody>
+      <tr><td>Apprentice Electrician</td><td>199,435</td><td>93,509</td><td>46.9%</td><td>F</td></tr>
+      <tr><td>Consent Tow Truck Operator</td><td>6,082</td><td>2,724</td><td>44.8%</td><td>F</td></tr>
+      <tr><td>A/C and Refrigeration Technician</td><td>39,040</td><td>15,195</td><td>38.9%</td><td>F</td></tr>
+      <tr><td>Electrical Contractor</td><td>28,100</td><td>9,835</td><td>35.0%</td><td>D</td></tr>
+      <tr><td>HVAC Contractor</td><td>18,250</td><td>4,745</td><td>26.0%</td><td>C</td></tr>
+      <tr><td>All TDLR trades (combined)</td><td>816,438</td><td>~239,000</td><td>29.3%</td><td>D</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Live Tools (Free)</h2>
+  <p>
+    <a class="btn" href="https://quantumsurety.bond/bond-compliance-by-trade">Interactive Compliance Chart</a>
+    <a class="btn" href="https://quantumsurety.bond/texas-bond-watch">Verify Any TX Contractor</a>
+    <a class="btn" href="https://verify.quantumsurety.bond/api-docs.html">Free API</a>
+  </p>
+
+  <h2>Source &amp; Contact</h2>
+  <p>Built by <a href="https://quantumsurety.bond">Quantum Surety LLC</a> (TDI License #3480229) from TDLR public records.<br>
+  Contact: <a href="mailto:contact@quantumsurety.bond">contact@quantumsurety.bond</a> | (214) 666-8718 | <a href="https://quantumsurety.bond/press">Press Kit</a></p>
+</body>
+</html>
